@@ -1,0 +1,105 @@
+/*----Css Media Queries For Responsive Website----*/
+@media only screen and (max-width:768px){
+.wrapper{
+    width: 100%;
+}
+.section1 {
+    height: auto;
+}
+.section2{
+    overflow: hidden;
+    height: auto;
+}
+.section2 .white-box {
+    padding-right: 0px;
+}
+.left-box,.right-box{
+    width: 50%;
+}
+.section2 .white-box {
+    
+    overflow: hidden;
+    height: 100%;
+}
+.right-box{
+    padding: 53px 15px;
+}
+.footer {
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.left-footer {
+    width: 50%;
+    float: left;
+    
+  
+    
+}
+.right-footer {
+    
+    width: 50%;
+   
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   flex-direction: column;
+    box-sizing: border-box;
+}
+
+}
+
+@media only screen and (max-width:576px){
+.wrapper{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.left-header,.right-header{
+    margin: 0 auto;
+    float: none;
+}
+.section1 {
+    height: auto;
+}
+.bullet-box {
+    width: 140px;
+}
+.section2{
+    overflow: hidden;
+    height: auto;
+}
+.left-box,.right-box{
+    width: 100%;
+}
+.right-box button{
+margin-left: 0px;
+margin-top: 31px;
+display: block;
+}
+.footer {
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.left-footer {
+    width: fit-content;
+    float: none;
+    
+    margin: 0 auto;
+    
+}
+.right-footer {
+    float: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+}
